@@ -320,14 +320,44 @@ path.combo {
 <text x="0" y="0" class="key tap">DEL</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
-<text x="302" y="239" class="combo tap">ESC</text>
-<a href="#x_x">
-<text x="302" y="250" class="combo hold layer-activator">5</text>
-</a></g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">Sft+TAB</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">INT_MUHENK…</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">&quot;</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">=</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
+<text x="588" y="88" class="combo tap">
+<tspan x="588" dy="-0.6em">&amp;mkp</tspan><tspan x="588" dy="1.2em">LCLK</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
+<a href="#JP_Symbols">
+<text x="302" y="239" class="combo tap layer-activator"><tspan style="font-size: 70%">JP_Symbols</tspan></text>
+</a><text x="302" y="250" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="440" y="226" width="28" height="26" class="combo"/>
+<a href="#Default">
+<text x="454" y="239" class="combo tap layer-activator">Default</text>
+</a><text x="454" y="250" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -511,14 +541,44 @@ path.combo {
 <text x="0" y="0" class="key tap">|</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
-<text x="302" y="239" class="combo tap">ESC</text>
-<a href="#x_x">
-<text x="302" y="250" class="combo hold layer-activator">5</text>
-</a></g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">Sft+TAB</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">INT_MUHENK…</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">&quot;</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">=</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
+<text x="588" y="88" class="combo tap">
+<tspan x="588" dy="-0.6em">&amp;mkp</tspan><tspan x="588" dy="1.2em">LCLK</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
+<a href="#JP_Symbols">
+<text x="302" y="239" class="combo tap layer-activator"><tspan style="font-size: 70%">JP_Symbols</tspan></text>
+</a><text x="302" y="250" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="440" y="226" width="28" height="26" class="combo"/>
+<a href="#Default">
+<text x="454" y="239" class="combo tap layer-activator">Default</text>
+</a><text x="454" y="250" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -702,14 +762,44 @@ path.combo {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
-<text x="302" y="239" class="combo tap">ESC</text>
-<a href="#x_x">
-<text x="302" y="250" class="combo hold layer-activator">5</text>
-</a></g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">Sft+TAB</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">INT_MUHENK…</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">&quot;</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">=</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
+<text x="588" y="88" class="combo tap">
+<tspan x="588" dy="-0.6em">&amp;mkp</tspan><tspan x="588" dy="1.2em">LCLK</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
+<a href="#JP_Symbols">
+<text x="302" y="239" class="combo tap layer-activator"><tspan style="font-size: 70%">JP_Symbols</tspan></text>
+</a><text x="302" y="250" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="440" y="226" width="28" height="26" class="combo"/>
+<a href="#Default">
+<text x="454" y="239" class="combo tap layer-activator">Default</text>
+</a><text x="454" y="250" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -897,14 +987,44 @@ path.combo {
 </text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
-<text x="302" y="239" class="combo tap">ESC</text>
-<a href="#x_x">
-<text x="302" y="250" class="combo hold layer-activator">5</text>
-</a></g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">Sft+TAB</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">INT_MUHENK…</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">&quot;</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">=</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
+<text x="588" y="88" class="combo tap">
+<tspan x="588" dy="-0.6em">&amp;mkp</tspan><tspan x="588" dy="1.2em">LCLK</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
+<a href="#JP_Symbols">
+<text x="302" y="239" class="combo tap layer-activator"><tspan style="font-size: 70%">JP_Symbols</tspan></text>
+</a><text x="302" y="250" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="440" y="226" width="28" height="26" class="combo"/>
+<a href="#Default">
+<text x="454" y="239" class="combo tap layer-activator">Default</text>
+</a><text x="454" y="250" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1069,11 +1189,13 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(271, 231) rotate(9.0)" class="key held keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(271, 231) rotate(9.0)" class="key trans keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(333, 247) rotate(20.0)" class="key held keypos-39">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(333, 247) rotate(20.0)" class="key trans keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(423, 247) rotate(-20.0)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1088,14 +1210,44 @@ path.combo {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
-<text x="302" y="239" class="combo tap">ESC</text>
-<a href="#x_x">
-<text x="302" y="250" class="combo hold layer-activator">5</text>
-</a></g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">Sft+TAB</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">INT_MUHENK…</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">&quot;</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">=</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
+<text x="588" y="88" class="combo tap">
+<tspan x="588" dy="-0.6em">&amp;mkp</tspan><tspan x="588" dy="1.2em">LCLK</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
+<a href="#JP_Symbols">
+<text x="302" y="239" class="combo tap layer-activator"><tspan style="font-size: 70%">JP_Symbols</tspan></text>
+</a><text x="302" y="250" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="440" y="226" width="28" height="26" class="combo"/>
+<a href="#Default">
+<text x="454" y="239" class="combo tap layer-activator">Default</text>
+</a><text x="454" y="250" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1274,14 +1426,44 @@ path.combo {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
-<text x="302" y="239" class="combo tap">ESC</text>
-<a href="#x_x">
-<text x="302" y="250" class="combo hold layer-activator">5</text>
-</a></g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">Sft+TAB</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">INT_MUHENK…</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">&quot;</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">=</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
+<text x="588" y="88" class="combo tap">
+<tspan x="588" dy="-0.6em">&amp;mkp</tspan><tspan x="588" dy="1.2em">LCLK</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
+<a href="#JP_Symbols">
+<text x="302" y="239" class="combo tap layer-activator"><tspan style="font-size: 70%">JP_Symbols</tspan></text>
+</a><text x="302" y="250" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="440" y="226" width="28" height="26" class="combo"/>
+<a href="#Default">
+<text x="454" y="239" class="combo tap layer-activator">Default</text>
+</a><text x="454" y="250" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1482,14 +1664,44 @@ path.combo {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
-<text x="302" y="239" class="combo tap">ESC</text>
-<a href="#x_x">
-<text x="302" y="250" class="combo hold layer-activator">5</text>
-</a></g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">Sft+TAB</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">INT_MUHENK…</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">&quot;</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">=</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
+<text x="588" y="88" class="combo tap">
+<tspan x="588" dy="-0.6em">&amp;mkp</tspan><tspan x="588" dy="1.2em">LCLK</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
+<a href="#JP_Symbols">
+<text x="302" y="239" class="combo tap layer-activator"><tspan style="font-size: 70%">JP_Symbols</tspan></text>
+</a><text x="302" y="250" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="440" y="226" width="28" height="26" class="combo"/>
+<a href="#Default">
+<text x="454" y="239" class="combo tap layer-activator">Default</text>
+</a><text x="454" y="250" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1677,14 +1889,44 @@ path.combo {
 <text x="0" y="0" class="key tap">F12</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
-<text x="302" y="239" class="combo tap">ESC</text>
-<a href="#x_x">
-<text x="302" y="250" class="combo hold layer-activator">5</text>
-</a></g>
-<g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="78" width="28" height="26" class="combo"/>
 <text x="112" y="91" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="154" y="75" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">Sft+TAB</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="42" y="95" width="28" height="26" class="combo"/>
+<text x="56" y="108" class="combo tap">
+<tspan x="56" dy="-0.6em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="56" dy="1.2em" style="font-size: 64%">INT_MUHENK…</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="687" y="95" width="28" height="26" class="combo"/>
+<text x="701" y="108" class="combo tap">&quot;</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">=</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
+<text x="588" y="88" class="combo tap">
+<tspan x="588" dy="-0.6em">&amp;mkp</tspan><tspan x="588" dy="1.2em">LCLK</tspan>
+</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="288" y="226" width="28" height="26" class="combo"/>
+<a href="#JP_Symbols">
+<text x="302" y="239" class="combo tap layer-activator"><tspan style="font-size: 70%">JP_Symbols</tspan></text>
+</a><text x="302" y="250" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="440" y="226" width="28" height="26" class="combo"/>
+<a href="#Default">
+<text x="454" y="239" class="combo tap layer-activator">Default</text>
+</a><text x="454" y="250" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

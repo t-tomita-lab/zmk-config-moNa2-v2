@@ -215,8 +215,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -353,7 +353,19 @@ layers:
   - {t: ▽, type: trans}
   - F12
 combos:
-- p: [39, 38]
-  k: {t: ESC, h: '5'}
 - p: [11, 12]
   k: TAB
+- p: [12, 13]
+  k: Sft+TAB
+- p: [11, 10]
+  k: '&to_layer_0 INT_MUHENKAN'
+- p: [20, 21]
+  k: '"'
+- p: [24, 25]
+  k: '='
+- p: [18, 19]
+  k: '&mkp LCLK'
+- p: [39, 38]
+  k: {t: JP_Symbols, h: toggle}
+- p: [41, 40]
+  k: {t: Default, h: toggle}
