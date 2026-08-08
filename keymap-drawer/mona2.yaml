@@ -173,8 +173,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+,
+  - Sft+.
   - Sft+INT3
   '5':
   - A
