@@ -92,7 +92,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 7 LANG2  &lt 1 SPACE  &lt 6 LANG1    &kp BACKSPACE  &kp ENTER                             &mt RCTRL DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         US_NUM {
@@ -103,7 +103,7 @@
 &trans                   &kp LESS_THAN  &kp GREATER_THAN  &trans        &trans        &trans       &kp BACKSLASH   &kp GRAVE                                                                  &kp PIPE
             >;
 
-            sensor-bindings = <&scroll_right_left>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         JP_Symbols {
@@ -113,8 +113,6 @@
 &trans  &trans  &trans  &trans  &trans       &kp SINGLE_QUOTE    &kp SEMICOLON  &trans  &trans  &trans   &trans  &trans
 &trans  &trans  &trans  &trans  &lt 3 SPACE  &trans              &trans         &trans                           &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         JP_NUM {
@@ -135,8 +133,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
@@ -146,8 +142,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         ARROW {
@@ -157,8 +151,6 @@
 &trans      &kp LC(LS(TAB))  &kp LC(TAB)   &kp LS(TAB)      &trans    &kp LG(TAB)    &kp RG(TAB)  &trans          &trans          &trans        &trans           &trans
 &trans      &trans           &trans        &trans           &trans    &trans         &trans       &trans                                                         &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNK_BT {
