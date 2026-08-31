@@ -92,7 +92,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 7 LANG2  &lt 1 SPACE  &lt 6 LANG1    &kp BACKSPACE  &kp ENTER                             &mt RCTRL DEL
             >;
 
-            sensor-bindings = <&scroll_right_left>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         US_NUM {
