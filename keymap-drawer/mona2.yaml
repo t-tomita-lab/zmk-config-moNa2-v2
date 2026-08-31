@@ -260,9 +260,9 @@ layers:
   - {t: ▽, type: trans}
   ARROW:
   - ESCAPE
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - UP ARROW
-  - {t: ▽, type: trans}
+  - PAGE UP
   - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
