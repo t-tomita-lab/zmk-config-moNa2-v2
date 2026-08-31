@@ -164,8 +164,8 @@ layers:
   - Sft+#
   - Sft+/
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+,
+  - Sft+.
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
