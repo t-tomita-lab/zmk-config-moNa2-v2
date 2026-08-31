@@ -30,8 +30,8 @@ manifest:
       remote: zettaface
       revision: main
       
-    - name: zmk-anti-idle
-      remote: kbrd-space
-      revision: main
+    # - name: zmk-anti-idle
+    #  remote: kbrd-space
+    #  revision: main
   self:
     path: config
