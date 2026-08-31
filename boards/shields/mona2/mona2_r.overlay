@@ -65,7 +65,7 @@
 // 通常のカーソル移動用
     input-processors =
         //<&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
-        <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>;   // 上下反転（すでに逆転している場合は外す）
+        //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>;   // 上下反転（すでに逆転している場合は外す）
 
     scroller {
         layers = <2>;
