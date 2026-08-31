@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: '5'}
   - O
   - P
   - A
@@ -38,56 +38,56 @@ layers:
   - LEFT WIN
   - F16
   - BACKSPACE
-  - {t: ENTER, h: '2'}
+  - {t: ENTER, h: JP_Symbols}
   - {t: '&to_layer_0 LANG2', h: '3'}
   - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
+  - {t: SPACE, h: US_NUM}
   - LEFT ALT
-  '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  US_NUM:
+  - '-'
   - '7'
   - '8'
   - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - +
+  - '!'
+  - '@'
   - (
   - )
+  - '&'
+  - Sft+/
+  - '4'
+  - '5'
+  - '6'
+  - '*'
+  - _
+  - '#'
+  - $
+  - '['
+  - ']'
+  - '"'
+  - {t: '0', h: LEFT SHIFT}
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - '='
+  - '~'
+  - '%'
+  - ^
+  - '{'
+  - '}'
+  - '?'
+  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '`', type: held}
   - '|'
+  JP_Symbols:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  '2':
-  - '!'
   - '@'
   - '#'
   - $
@@ -223,7 +223,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -259,6 +259,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '7':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
