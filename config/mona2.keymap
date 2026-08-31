@@ -161,5 +161,14 @@
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans    &trans  &trans                          &kp F12
             >;
         };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
+        };
     };
 };
