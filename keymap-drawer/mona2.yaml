@@ -149,7 +149,7 @@ layers:
   - Sft+3
   - Sft+4
   - ']'
-  - {t: ▽, type: trans}
+  - '#'
   - Sft+2
   - {t: '0', h: LEFT SHIFT}
   - '1'
@@ -161,7 +161,7 @@ layers:
   - Sft+5
   - '='
   - Sft+]
-  - {t: ▽, type: trans}
+  - Sft+#
   - Sft+/
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
