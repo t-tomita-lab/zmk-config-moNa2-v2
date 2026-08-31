@@ -29,6 +29,7 @@ manifest:
     - name: zmk-input-processor-keybind
       remote: zettaface
       revision: main
+      
     - name: zmk-anti-idle
       remote: kbrd-space
       revision: main
