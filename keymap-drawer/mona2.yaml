@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - ''''
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
@@ -42,7 +42,7 @@ layers:
   - {t: LANG1, h: ARROW}
   - BACKSPACE
   - ENTER
-  - LEFT ALT
+  - {t: DEL, h: RCTRL}
   US_NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
