@@ -96,7 +96,7 @@
             sensor-bindings = <&scroll_right_left>;
         };
 
-        layer_2 {
+        JP_Symbols {
             bindings = <
 &trans     &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
 &kp GRAVE  &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                  &trans   &mkp MB3   &mkp MB1       &mkp MB2      &kp EQUAL  &kp PLUS
