@@ -63,6 +63,7 @@
     device = <&trackball_central>;
 
 input-processors =
+        <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,
         <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
         <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>;
 
