@@ -44,48 +44,48 @@ layers:
   - {t: SPACE, h: US_NUM}
   - LEFT ALT
   US_NUM:
-  - '-'
-  - '7'
-  - '8'
-  - '9'
-  - +
-  - '!'
-  - '@'
-  - (
-  - )
-  - '&'
-  - Sft+/
-  - '4'
-  - '5'
-  - '6'
-  - '*'
-  - _
-  - '#'
-  - $
-  - '['
-  - ']'
-  - '"'
-  - {t: '0', h: LEFT SHIFT}
-  - '1'
-  - '2'
-  - '3'
-  - .
-  - '='
-  - '~'
-  - '%'
-  - ^
-  - '{'
-  - '}'
-  - '?'
-  - {t: ▽, type: trans}
-  - <
-  - '>'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
-  - {t: '`', type: held}
-  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   JP_Symbols:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
