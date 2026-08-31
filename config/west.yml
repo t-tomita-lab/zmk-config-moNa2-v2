@@ -12,7 +12,7 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: zettaface  # <-- Input Processor Keybind
       url-base: https://github.com/zettaface
-- name: kbrd-space
+    - name: kbrd-space
       url-base: https://github.com/kbrd-space
   projects:
     - name: zmk
