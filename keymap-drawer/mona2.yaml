@@ -36,12 +36,12 @@ layers:
   - /
   - LCTRL
   - LEFT WIN
-  - F16
-  - BACKSPACE
-  - {t: ENTER, h: JP_Symbols}
-  - {t: '&to_layer_0 LANG2', h: JP_NUM}
-  - {t: '&to_layer_0 LANG1', h: JP_NUM}
+  - LEFT ALT
+  - {t: LANG2, h: FUNK_BT}
   - {t: SPACE, h: US_NUM}
+  - {t: LANG1, h: ARROW}
+  - BACKSPACE
+  - ENTER
   - LEFT ALT
   US_NUM:
   - {t: ▽, type: trans}
@@ -81,10 +81,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   JP_Symbols:
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, h: JP_NUM, type: held}
+  - {t: SPACE, h: JP_NUM}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,8 +167,8 @@ layers:
   - Sft+,
   - Sft+.
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - INT1
   - Sft+{
   - Sft+INTERNATIONAL 3
@@ -297,7 +297,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -338,7 +338,7 @@ layers:
   - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
