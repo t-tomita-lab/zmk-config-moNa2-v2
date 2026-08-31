@@ -98,10 +98,10 @@
 
         JP_Symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &lt 5 I  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                           &trans         &trans  &trans  &trans   &trans  &kp LA(N7)
+&trans  &trans  &trans  &trans  &trans       &kp SINGLE_QUOTE    &kp SEMICOLON  &trans  &trans  &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &lt 3 SPACE  &trans              &trans         &trans                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
