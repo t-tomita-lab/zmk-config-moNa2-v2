@@ -75,4 +75,12 @@ scroller {
         <&zip_scroll_scaler 1 5>;
 };
 
+&zip_temp_layer {
+    excluded-positions = <
+        18
+        19
+        20 
+    >;
+};
+
 };
