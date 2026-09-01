@@ -1,12 +1,12 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <behaviors/anti_idle_mode.dtsi>
+#include <dt-bindings/anti_idle_mode.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <behaviors/anti_idle_mode.dtsi>
-#include <dt-bindings/anti_idle_mode.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 4
@@ -22,17 +22,16 @@
     flavor = "balanced";
 };
 
-
 / {
-
     anti_idle {
-            compatible = "zmk,anti-idle-generic";
-            interval-ms = <60000>;              // 実行間隔（ms）
-            // bindings = <&mmv MOVE_DOWN &mmv MOVE_UP>;
-            bindings = <&kp RSFT>;   // 右Shiftを軽く押すなど
-            tap_ms = <40>;                      // 各動作の押し時間
-            wait_ms = <200>;                    // 動作間の待ち時間
-        };
+        compatible = "zmk,anti-idle-generic";
+        interval-ms = <60000>;              // 実行間隔（ms）
+        // bindings = <&mmv MOVE_DOWN &mmv MOVE_UP>;
+
+        bindings = <&kp RSFT>;   // 右Shiftを軽く押すなど
+        tap_ms = <40>;                      // 各動作の押し時間
+        wait_ms = <200>;                    // 動作間の待ち時間
+    };
 
     combos {
         compatible = "zmk,combos";
@@ -168,19 +167,10 @@
 
         FUNK_BT {
             bindings = <
-&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans          &trans        &trans        &trans        &trans                  &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&bt BT_CLR      &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                         &kp F1        &kp F2  &kp F3  &kp F4  &kp F5
+&trans          &trans        &trans        &trans        &trans                  &trans       &kp F6        &kp F7  &kp F8  &kp F9  &kp F10
+&bt BT_CLR      &trans        &trans        &trans        &trans        &trans    &trans       &trans        &trans  &trans  &trans  &kp F11
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans    &aim AIM_ON  &aim AIM_OFF                          &kp F12
-            >;
-        };
-
-        layer_8 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
         };
     };
