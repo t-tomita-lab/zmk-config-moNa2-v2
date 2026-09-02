@@ -345,7 +345,7 @@ layers:
   - '&aim AIM_OFF'
   - F12
 combos:
-- p: [11, 12]
+- p: [0, 1]
   k: TAB
 - p: [1, 2]
   k: Sft+TAB
