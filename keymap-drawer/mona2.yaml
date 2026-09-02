@@ -145,7 +145,7 @@ layers:
   - '5'
   - '6'
   - Sft+'
-  - {t: ▽, type: trans}
+  - Sft+INT1
   - Sft+3
   - Sft+4
   - ']'
@@ -157,7 +157,7 @@ layers:
   - '3'
   - .
   - Sft+-
-  - {t: ▽, type: trans}
+  - Sft+=
   - Sft+5
   - '='
   - Sft+]
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '5':
-  - A
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
