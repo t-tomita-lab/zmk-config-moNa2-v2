@@ -323,7 +323,7 @@ layers:
   - F8
   - F9
   - F10
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -335,14 +335,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F11
-  - BT CLR ALL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&aim AIM_ON'
   - '&aim AIM_OFF'
+  - BT CLR
+  - BT CLR ALL
   - F12
 combos:
 - p: [0, 1]
