@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INT1
   JP_NUM:
   - '-'
   - '7'
@@ -169,8 +169,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - INT1
-  - Sft+{
+  - DELETE
+  - Sft+[
   - Sft+INTERNATIONAL 3
   '4':
   - {t: ▽, type: trans}
@@ -329,7 +329,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Gui+S
-  - {t: ▽, type: trans}
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
