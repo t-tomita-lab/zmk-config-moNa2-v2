@@ -42,7 +42,7 @@ layers:
   - {t: LANG1, h: ARROW}
   - BACKSPACE
   - ENTER
-  - {t: DEL, h: RCTRL}
+  - {t: \, h: RCTRL}
   US_NUM:
   - '-'
   - '7'
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - \
+  - DELETE
   - '`'
   - '|'
   JP_Symbols:
