@@ -334,16 +334,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - '&aim AIM_ON'
   - '&aim AIM_OFF'
-  - BT CLR
-  - BT CLR ALL
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
 combos:
 - p: [0, 1]
   k: TAB
