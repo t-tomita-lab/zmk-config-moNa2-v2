@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  WIN:
+  DEFAULT:
   - Q
   - W
   - E
@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: SCRL_W}
+  - {t: I, h: SCRL}
   - O
   - P
   - {t: A, h: LCTRL}
@@ -37,13 +37,13 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: LANG2, h: BLE_W}
-  - {t: SPACE, h: NUM_W}
-  - {t: LANG1, h: FN_W}
+  - {t: LANG2, h: FUNK_BT}
+  - {t: SPACE, h: US_NUM}
+  - {t: LANG1, h: ARROW}
   - BACKSPACE
   - ENTER
   - {t: \, h: RCTRL}
-  NUM_W:
+  US_NUM:
   - '-'
   - '7'
   - '8'
@@ -86,7 +86,7 @@ layers:
   - DELETE
   - '`'
   - '|'
-  MAC:
+  JP_SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,7 +94,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: I, h: SCRL_W}
+  - {t: I, h: SCRL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,12 +124,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, h: NUM_M}
+  - {t: SPACE, h: JP_NUM}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INT1
-  NUM_M:
+  JP_NUM:
   - '-'
   - '7'
   - '8'
@@ -172,7 +172,7 @@ layers:
   - DELETE
   - Sft+[
   - Sft+INTERNATIONAL 3
-  MOUSE_W:
+  MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SCRL_W:
+  SCRL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  FN_W:
+  ARROW:
   - ESCAPE
   - PAGE DOWN
   - UP ARROW
@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  BLE_W:
+  FUNK_BT:
   - F1
   - F2
   - F3
@@ -350,6 +350,6 @@ combos:
 - p: [1, 2]
   k: Sft+TAB
 - p: [38, 37]
-  k: {t: MAC, h: toggle}
+  k: {t: JP_SYM, h: toggle}
 - p: [37, 36]
-  k: {t: WIN, h: toggle}
+  k: {t: DEFAULT, h: toggle}
