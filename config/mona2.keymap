@@ -111,7 +111,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "WIN";
+            display-name = "DEFAULT";
             bindings = <
 &kp Q             &kp W         &kp E         &kp R        &kp T                                      &kp Y      &kp U  &lt 5 I    &kp O    &kp P
 &mt LCTRL A       &kp S         &kp D         &kp F        &kp G                       &kp MINUS      &kp H      &kp J  &kp K      &kp L    &mt RIGHT_CONTROL SINGLE_QUOTE
@@ -123,7 +123,7 @@
         };
 
         US_NUM {
-            display-name = "NUM_W";
+            display-name = "US_NUM";
             bindings = <
 &kp MINUS                &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9  &kp PLUS                                   &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND
 &kp SLASH                &kp NUMBER_4   &kp NUMBER_5      &kp NUMBER_6  &kp ASTERISK               &kp UNDERSCORE  &kp HASH         &kp DOLLAR   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES
@@ -135,7 +135,7 @@
         };
 
         JP_Symbols {
-            display-name = "MAC";
+            display-name = "JP_SYM";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &lt 5 I  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                           &trans         &trans  &trans  &trans   &trans  &mt RIGHT_CONTROL LS(N7)
@@ -145,7 +145,7 @@
         };
 
         JP_NUM {
-            display-name = "NUM_M";
+            display-name = "JP_NUM";
             bindings = <
 &kp MINUS                &kp NUMBER_7   &kp NUMBER_8    &kp NUMBER_9  &kp LS(SEMICOLON)                                  &kp LS(NUMBER_1)      &kp LEFT_BRACKET  &kp LS(NUMBER_8)       &kp LS(NUMBER_9)     &kp LS(NUMBER_6)
 &kp SLASH                &kp NUMBER_4   &kp NUMBER_5    &kp NUMBER_6  &kp LS(SQT)                         &kp LS(INT1)   &kp LS(NUMBER_3)      &kp LS(NUMBER_4)  &kp RIGHT_BRACKET      &kp NUHS             &kp LS(NUMBER_2)
@@ -157,7 +157,7 @@
         };
 
         MOUSE {
-            display-name = "MOUSE_W";
+            display-name = "MOUSE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
@@ -167,7 +167,7 @@
         };
 
         SCROLL {
-            display-name = "SCRL_W";
+            display-name = "SCRL";
             bindings = <
 &trans          &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans          &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
@@ -177,7 +177,7 @@
         };
 
         ARROW {
-            display-name = "FN_W";
+            display-name = "ARROW";
             bindings = <
 &kp ESCAPE  &kp PAGE_DOWN    &kp UP_ARROW  &kp PAGE_UP      &kp HOME                              &trans          &trans          &trans        &trans           &trans
 &kp TAB     &kp LEFT_ARROW   &kp DOWN      &kp RIGHT_ARROW  &kp END                  &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
@@ -187,7 +187,7 @@
         };
 
         FUNK_BT {
-            display-name = "BLE_W";
+            display-name = "FUNK_BT";
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &studio_unlock
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10                       &trans       &trans        &trans        &trans        &trans        &trans
