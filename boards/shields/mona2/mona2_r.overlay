@@ -61,51 +61,36 @@
 
 
 /* ─────────────────────────────────────────────────────────────
-   scroll_runtime_input_processor をスクロール変換器として上書き
-
-   デフォルトでは x-codes=HWHEEL / y-codes=WHEEL で
-   「すでにスクロールイベントになっているもの」しか処理しない設定。
-   トラックボールの生イベント(REL_X/Y) を受け取って
-   xy-to-scroll-enabled でスクロールに変換する形に切替える。
-
-   ・active-layers : デフォルトのスクロールレイヤー bitmask
-                     bit5=SCROLL → 0x00000020
-                     DYA Studio から変更可能(再ビルド不要)
-   ・xy-to-scroll-enabled : REL_X→HWHEEL, REL_Y→WHEEL に変換
-                            こちらも Studio から ON/OFF 可能
-   ────────────────────────────────────────────────────── */
-&scroll_runtime_input_processor {
-    x-codes = <INPUT_REL_X>;
-    y-codes = <INPUT_REL_Y>;
-    xy-to-scroll-enabled;
-    active-layers = <0x00000020>;  /* layer5 = SCROLL */
-    scale-multiplier = <1>;
-    scale-divisor = <10>;           /* スクロール速度。大きいほど遅い。Studioで調整可 */
-};
-
-/* ─────────────────────────────────────────────────────────────
    mouse_runtime_input_processor
-   ・全レイヤーで有効 (active-layers 未指定 = 全レイヤー)
-   ・temp-layer: トラックボール操作で自動的に MOUSE レイヤー(4) を有効化
-     元の &zip_temp_layer 4 10000 相当
+   ・通常時のマウス移動 + オートマウスレイヤー
+   ・元の &zip_temp_layer 4 10000 相当
    ────────────────────────────────────────────────────── */
 &mouse_runtime_input_processor {
-    /* オートマウスレイヤー: layer 4 (MOUSE) */
     temp-layer-enabled;
-    temp-layer = <4>;
-    temp-layer-activation-delay-ms = <0>;      /* すぐ有効化 */
-    temp-layer-deactivation-delay-ms = <10000>; /* 10秒無操作で解除（元設定相当） */
+    temp-layer = <4>;                          /* MOUSE レイヤー */
+    temp-layer-activation-delay-ms = <0>;
+    temp-layer-deactivation-delay-ms = <10000>;
 };
 
 /* ─────────────────────────────────────────────────────────────
    入力リスナー
-   メインチェーン: scroll → mouse の順
-   ・scroll は active-layers (SCROLL=5) のときだけ動作
-     → それ以外のレイヤーでは素通し
-   ・mouse は全レイヤーで動作し、必要に応じて temp-layer を起動
+   ・メインチェーン: 通常時はマウス移動 + オートマウスレイヤー
+   ・scroller 子ノード: layer 5 (SCROLL) のときだけスクロール変換
+     （元の設定と同じ方式。active-layers より確実）
    ────────────────────────────────────────────────────── */
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
-    input-processors = <&scroll_runtime_input_processor &mouse_runtime_input_processor>;
+
+    /* 通常時（SCROLL 以外） */
+    input-processors = <&mouse_runtime_input_processor>;
+
+    /* SCROLL レイヤー (layer 5) のときだけこちらに切替 */
+    scroller {
+        layers = <5>;
+        input-processors =
+            <&zip_xy_to_scroll_mapper>,
+            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+            <&zip_scroll_scaler 1 10>;
+    };
 };
