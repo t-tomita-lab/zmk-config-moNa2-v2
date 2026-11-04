@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  default:
+  WIN:
   - Q
   - W
   - E
@@ -8,7 +8,7 @@ layers:
   - T
   - Y
   - U
-  - {t: I, h: '5'}
+  - {t: I, h: SCRL_W}
   - O
   - P
   - {t: A, h: LCTRL}
@@ -37,13 +37,13 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: LANG2, h: FUNK_BT}
-  - {t: SPACE, h: US_NUM}
-  - {t: LANG1, h: ARROW}
+  - {t: LANG2, h: BLE_W}
+  - {t: SPACE, h: NUM_W}
+  - {t: LANG1, h: FN_W}
   - BACKSPACE
   - ENTER
   - {t: \, h: RCTRL}
-  US_NUM:
+  NUM_W:
   - '-'
   - '7'
   - '8'
@@ -86,7 +86,7 @@ layers:
   - DELETE
   - '`'
   - '|'
-  JP_Symbols:
+  MAC:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,7 +94,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: I, h: '5'}
+  - {t: I, h: SCRL_W}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,12 +124,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, h: JP_NUM}
+  - {t: SPACE, h: NUM_M}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INT1
-  JP_NUM:
+  NUM_M:
   - '-'
   - '7'
   - '8'
@@ -172,7 +172,7 @@ layers:
   - DELETE
   - Sft+[
   - Sft+INTERNATIONAL 3
-  '4':
+  MOUSE_W:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '5':
+  SCRL_W:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ARROW:
+  FN_W:
   - ESCAPE
   - PAGE DOWN
   - UP ARROW
@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  FUNK_BT:
+  BLE_W:
   - F1
   - F2
   - F3
@@ -309,9 +309,9 @@ layers:
   - F5
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - '&studio_unlock'
   - F6
   - F7
   - F8
@@ -350,6 +350,6 @@ combos:
 - p: [1, 2]
   k: Sft+TAB
 - p: [38, 37]
-  k: {t: JP_Symbols, h: toggle}
+  k: {t: MAC, h: toggle}
 - p: [37, 36]
-  k: {t: default, h: toggle}
+  k: {t: WIN, h: toggle}
