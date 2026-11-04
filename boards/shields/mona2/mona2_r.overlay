@@ -83,23 +83,29 @@
     scale-divisor = <10>;           /* スクロール速度。大きいほど遅い。Studioで調整可 */
 };
 
-/* マウス用は全レイヤーで有効 (active-layers = 0 がデフォルト) */
+/* ─────────────────────────────────────────────────────────────
+   mouse_runtime_input_processor
+   ・全レイヤーで有効 (active-layers 未指定 = 全レイヤー)
+   ・temp-layer: トラックボール操作で自動的に MOUSE レイヤー(4) を有効化
+     元の &zip_temp_layer 4 10000 相当
+   ────────────────────────────────────────────────────── */
 &mouse_runtime_input_processor {
+    /* オートマウスレイヤー: layer 4 (MOUSE) */
     temp-layer-enabled;
-    temp-layer = <4>;                          /* MOUSE レイヤー */
+    temp-layer = <4>;
     temp-layer-activation-delay-ms = <0>;      /* すぐ有効化 */
-    temp-layer-deactivation-delay-ms = <10000>; /* 10秒無操作で解除 */
+    temp-layer-deactivation-delay-ms = <10000>; /* 10秒無操作で解除（元設定相当） */
 };
 
 /* ─────────────────────────────────────────────────────────────
    入力リスナー
-   メインチェーンに mouse → scroll の順で2段。
-   ・mouse は全レイヤーで走る(scale/invert を適用)
-   ・scroll は active-layers のレイヤーでのみ走る
-     → 該当レイヤー以外では素通しでマウスとして動作
+   メインチェーン: scroll → mouse の順
+   ・scroll は active-layers (SCROLL=5) のときだけ動作
+     → それ以外のレイヤーでは素通し
+   ・mouse は全レイヤーで動作し、必要に応じて temp-layer を起動
    ────────────────────────────────────────────────────── */
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
-    input-processors = <&mouse_runtime_input_processor &scroll_runtime_input_processor>;
+    input-processors = <&scroll_runtime_input_processor &mouse_runtime_input_processor>;
 };
