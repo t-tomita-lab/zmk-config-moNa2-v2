@@ -85,7 +85,10 @@
 
 /* マウス用は全レイヤーで有効 (active-layers = 0 がデフォルト) */
 &mouse_runtime_input_processor {
-    /* 必要ならここで初期感度などを設定。Studioから実行時変更可能 */
+    temp-layer-enabled;
+    temp-layer = <4>;                          /* MOUSE レイヤー */
+    temp-layer-activation-delay-ms = <0>;      /* すぐ有効化 */
+    temp-layer-deactivation-delay-ms = <10000>; /* 10秒無操作で解除 */
 };
 
 /* ─────────────────────────────────────────────────────────────
